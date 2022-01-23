@@ -1,0 +1,132 @@
+site_name: jsPsych中文文档
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'green'
+    accent: 'orange'
+  logo: 'img/jspsych-logo-no-text-mono.svg'
+  favicon: 'img/jspsych-favicon.png'
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/Shaobin-Jiang/jsPsych-Chinese-Documentation'
+copyright: 'Copyright &copy; 2021 Shaobin Jiang'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+repo_url: 'https://github.com/Shaobin-Jiang/jsPsych-Chinese-Documentation'
+repo_name: 'Shaobin-Jiang/jsPsych-Chinese-Documentation'
+docs_dir: docs
+nav:
+- 简介: 'index.md'
+- 新手教程:
+  - '基础的Hello World': 'tutorials/hello-world.md'
+  - '演示实验：简单反应时实验': 'tutorials/rt-task.md'
+  - '视频教程': 'tutorials/video-tutorials.md'
+- 概述:
+  - '创建实验：时间线': 'overview/timeline.md'
+  - '插件': 'overview/plugins.md'
+  - '扩展': 'overview/extensions.md'
+  - '动态参数': 'overview/dynamic-parameters.md'
+  - '控制呈现样式': 'overview/style.md'
+  - '数据存储、汇总和操作': 'overview/data.md'
+  - '模拟模式': 'overview/simulation.md'
+  - '运行实验': 'overview/running-experiments.md'
+  - '实验设置': 'overview/experiment-options.md'
+  - '事件': 'overview/events.md'
+  - '记录浏览器交互': 'overview/record-browser-interactions.md'
+  - '多媒体文件预加载': 'overview/media-preloading.md'
+  - '全屏实验': 'overview/fullscreen.md'
+  - '眼动': 'overview/eye-tracking.md'
+  - '根据浏览器类型排除被试': 'overview/exclude-browser.md'
+  - '进度条': 'overview/progress-bar.md'
+  - '接入Prolific': 'overview/prolific.md'
+  - '接入Mechanical Turk': 'overview/mturk.md'
+  - '支持的浏览器和设备': 'overview/browser-device-support.md'
+  - '计时精度': 'overview/timing-accuracy.md'
+- 参考:
+  - 'jsPsych': 'reference/jspsych.md'
+  - 'jsPsych.data': 'reference/jspsych-data.md'
+  - 'jsPsych.randomization': 'reference/jspsych-randomization.md'
+  - 'jsPsych.turk': 'reference/jspsych-turk.md'
+  - 'jsPsych.pluginAPI': 'reference/jspsych-pluginAPI.md'
+- 插件:
+  - '插件列表': 'plugins/list-of-plugins.md'
+  - 'animation': 'plugins/animation.md'
+  - 'audio-button-response': 'plugins/audio-button-response.md'
+  - 'audio-keyboard-response': 'plugins/audio-keyboard-response.md'
+  - 'audio-slider-response': 'plugins/audio-slider-response.md'
+  - 'browser-check': 'plugins/browser-check.md'
+  - 'call-function': 'plugins/call-function.md'
+  - 'canvas-button-response': 'plugins/canvas-button-response.md'
+  - 'canvas-keyboard-response': 'plugins/canvas-keyboard-response.md'
+  - 'canvas-slider-response': 'plugins/canvas-slider-response.md'
+  - 'categorize-animation': 'plugins/categorize-animation.md'
+  - 'categorize-html': 'plugins/categorize-html.md'
+  - 'categorize-image': 'plugins/categorize-image.md'
+  - 'cloze' : 'plugins/cloze.md'
+  - 'external-html': 'plugins/external-html.md'
+  - 'free-sort': 'plugins/free-sort.md'
+  - 'fullscreen': 'plugins/fullscreen.md'
+  - 'html-audio-response': 'plugins/html-audio-response.md'
+  - 'html-button-response': 'plugins/html-button-response.md'
+  - 'html-keyboard-response': 'plugins/html-keyboard-response.md'
+  - 'html-slider-response': 'plugins/html-slider-response.md'
+  - 'iat-html': 'plugins/iat-html.md'
+  - 'iat-image': 'plugins/iat-image.md'
+  - 'image-button-response': 'plugins/image-button-response.md'
+  - 'image-keyboard-response': 'plugins/image-keyboard-response.md'
+  - 'image-slider-response': 'plugins/image-slider-response.md'
+  - 'initialize-microphone': 'plugins/initialize-microphone.md'
+  - 'instructions': 'plugins/instructions.md'
+  - 'maxdiff': 'plugins/maxdiff.md'
+  - 'preload': 'plugins/preload.md'
+  - 'reconstruction': 'plugins/reconstruction.md'
+  - 'resize': 'plugins/resize.md'
+  - 'same-different-html': 'plugins/same-different-html.md'
+  - 'same-different-image': 'plugins/same-different-image.md'
+  - 'serial-reaction-time': 'plugins/serial-reaction-time.md'
+  - 'serial-reaction-time-mouse': 'plugins/serial-reaction-time-mouse.md'
+  - 'sketchpad' : 'plugins/sketchpad.md'
+  - 'survey' : 'plugins/survey.md'
+  - 'survey-html-form' : 'plugins/survey-html-form.md'
+  - 'survey-likert': 'plugins/survey-likert.md'
+  - 'survey-multi-choice': 'plugins/survey-multi-choice.md'
+  - 'survey-multi-select': 'plugins/survey-multi-select.md'
+  - 'survey-text': 'plugins/survey-text.md'
+  - 'video-button-response': 'plugins/video-button-response.md'
+  - 'video-keyboard-response': 'plugins/video-keyboard-response.md'
+  - 'video-slider-response': 'plugins/video-slider-response.md'
+  - 'virtual-chinrest' : 'plugins/virtual-chinrest.md'
+  - 'visual-search-circle': 'plugins/visual-search-circle.md'
+  - 'webgazer-calibrate': 'plugins/webgazer-calibrate.md'
+  - 'webgazer-init-camera': 'plugins/webgazer-init-camera.md'
+  - 'webgazer-validate': 'plugins/webgazer-validate.md'
+- 扩展:
+  - '扩展': 'extensions/list-of-extensions.md'
+  - '鼠标追踪': 'extensions/mouse-tracking.md'
+  - 'webgazer': 'extensions/webgazer.md'
+- 开发者:
+  - '配置': 'developers/configuration.md'
+  - '贡献代码': 'developers/contributing.md'
+  - '开发插件': 'developers/plugin-development.md'
+  - '开发扩展': 'developers/extension-development.md'
+- 支持:
+  - '寻求帮助': 'support/support.md'
+  - '从6.x版本到7.x版本': 'support/migration-v7.md'
+- 关于:
+  - '关于jsPsych': 'about/about.md'
+  - '许可证': 'about/license.md'
