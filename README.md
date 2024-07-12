@@ -1,3 +1,5 @@
+A newer version of the doc is maintained at <https://github.com/Shaobin/Jiang/jsPsych-Chinese-Documentation>. This repo is thereby archived on Jul 12nd, 2024.
+
 # jsPsych中文文档
 
 ![](https://shields.io/badge/Version-6.3_&_7.1-brightgreen.svg?style=plastic) ![](https://shields.io/badge/License-MIT-informational.svg?style=plastic)
